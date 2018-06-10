@@ -2,7 +2,9 @@
 import sys
 try:
     total = sum(int(arg) for arg in sys.argv[1:])
-    print 'sum =', total
+    print('sum =', total)
 except ValueError:
-    print 'Please supply integer arguments'
+    print('Please supply integer arguments')
 # That's all folks
+
+### Added parenthesis to print actions. - ARP 6-10-18 ###
